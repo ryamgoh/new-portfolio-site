@@ -95,7 +95,7 @@ const Navbar = ({ sectionRefs }: NavbarProps) => {
           href='#contact'
         >
           <span className='relative w-fit'>
-            <span className='absolute bottom-2 h-[0.15em] w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full'></span>
+            <span className='absolute bottom-0 h-[0.15em] w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full'></span>
             <span>Let&apos;s Talk.</span>
           </span>
         </a>

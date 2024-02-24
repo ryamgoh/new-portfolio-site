@@ -8,6 +8,9 @@ import About from '@/components/homepage/About';
 import Hero from '@/components/homepage/Hero';
 import Role from '@/components/homepage/Role';
 import Navbar from '@/components/ui/Navbar';
+import Services from '@/components/homepage/Services';
+import Works from '@/components/homepage/Works';
+import Contact from '@/components/homepage/Contact';
 
 export default function Home() {
   gsap.registerPlugin(ScrollTrigger);
@@ -51,9 +54,9 @@ export default function Home() {
           }
         />
         <About />
-        {/* <Services /> */}
-        {/* <Works forwardedRef={(el) => (sectionRefs.current[1] = el)} /> */}
-        {/* <Contact /> */}
+        <Services />
+        <Works forwardedRef={(el) => (sectionRefs.current[1] = el)} />
+        <Contact />
       </main>
     </div>
   );
