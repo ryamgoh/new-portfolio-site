@@ -11,12 +11,10 @@ const Footer = () => {
         <div className='flex space-x-1'>
           <span>&copy;</span>
           <span>2024</span>
-          <span className='font-extrabold uppercase 2xl:text-body-1'>
-            Ryann Goh
-          </span>
+          <span className='font-extrabold uppercase'>Ryann Goh</span>
         </div>
         <div>
-          <span className='text-body-4 2xl:text-body-1'>
+          <span className='text-body-4 2xl:text-body-3'>
             Site designed and coded with 🧤
           </span>
         </div>
@@ -25,7 +23,7 @@ const Footer = () => {
         onClick={toTop}
         className='group col-span-2 flex w-fit items-center space-x-2 2xl:text-body-1'
       >
-        <span className='font-extrabold uppercase duration-200 hover:font-black'>
+        <span className='uppercase duration-200 hover:font-black'>
           BACK TO TOP
         </span>
         <span className='duration-300 ease-in-out group-hover:-translate-y-3'>
