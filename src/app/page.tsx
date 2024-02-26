@@ -11,6 +11,7 @@ import Navbar from '@/components/ui/Navbar';
 import Services from '@/components/homepage/Services';
 import Works from '@/components/homepage/Works';
 import Contact from '@/components/homepage/Contact';
+import Footer from '@/components/ui/Footer';
 
 export default function Home() {
   gsap.registerPlugin(ScrollTrigger);
@@ -58,6 +59,7 @@ export default function Home() {
         <Works forwardedRef={(el) => (sectionRefs.current[1] = el)} />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }
