@@ -1,4 +1,5 @@
 import React from 'react';
+import Globe from '../globe/Globe';
 
 interface RoleProps {
   forwardedRef: (el: HTMLDivElement | null) => void;

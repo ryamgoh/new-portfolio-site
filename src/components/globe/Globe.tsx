@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { use, useEffect } from 'react';
+
+import runGlobe from './globeUtils';
 
 const Globe = () => {
+  useEffect(() => {
+    runGlobe();
+  }, []);
+
   return (
     <div
-      className='pointer-events-none absolute left-0 top-0 h-screen w-full'
+      className='pointer-events-none absolute left-0 top-0 h-[200vh] w-full'
       data-js-globe-hero-wrapper
     >
       <svg

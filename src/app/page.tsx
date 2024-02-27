@@ -12,6 +12,7 @@ import Services from '@/components/homepage/Services';
 import Works from '@/components/homepage/Works';
 import Contact from '@/components/homepage/Contact';
 import Footer from '@/components/ui/Footer';
+import Globe from '@/components/globe/Globe';
 
 export default function Home() {
   gsap.registerPlugin(ScrollTrigger);
@@ -46,7 +47,8 @@ export default function Home() {
   return (
     <div className='bg-secondary-100'>
       <Navbar sectionRefs={sectionRefs.current} />
-      <Hero />
+      <Globe />
+      {/* <Hero /> */}
       <main className='px-5 md:px-10 xl:px-20 2xl:px-28'>
         {/* forwardedRef props to pass into the child component to access the ref, then this will go into the useRef array  */}
         <Role
